@@ -9,8 +9,8 @@
 #       請自行調整套件管理工具 (e.g., yum, dnf, pacman, zypper 等)。
 
 echo "=== STEP 1: 系統更新與安裝必要套件 ==="
-sudo apt-get update
-sudo apt-get install -y python3 python3-venv python3-pip ffmpeg
+apt-get update
+apt-get install -y python3 python3-venv python3-pip ffmpeg
 
 echo "=== STEP 2: 建立與啟動 Python 虛擬環境 ==="
 python3 -m venv whisper_env

@@ -1,1 +1,10 @@
-*.m4a
+*.mp4
+*voices
+*logs
+*__pycache__
+*.log
+*.txt
+*.json
+*.yaml
+*.yml
+*.ini
